@@ -1,0 +1,24 @@
+.hero {
+    &__animate{
+        transition: opacity 500ms ease-in;
+    }
+    &__animate-enter {
+        opacity: 0;
+    }
+
+    &__animate-enter-active {
+        opacity: 1;
+        transition: opacity 500ms ease-in;
+    }
+    &__animate-enter-done {
+        opacity: 1;
+    }
+    &__animate-exit {
+        opacity: 1;
+    }
+
+    &__animate-exit-active {
+        opacity: 0;
+        transition: opacity 500ms ease-in;
+    }
+}
